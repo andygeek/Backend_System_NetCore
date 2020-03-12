@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr-Robot\\Documents\\de git\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj",
       "projectName": "SystemBackend.Entities",
-      "projectPath": "C:\\Users\\Mr-Robot\\Documents\\de git\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj",
+      "projectPath": "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj",
       "packagesPath": "C:\\Users\\Mr-Robot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mr-Robot\\Documents\\de git\\Backend_System_NetCore\\SystemBackend.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

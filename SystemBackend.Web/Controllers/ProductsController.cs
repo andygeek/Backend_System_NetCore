@@ -25,7 +25,7 @@ namespace SystemBackend.Web.Controllers
         [HttpGet("[action]")]
         public async Task<IEnumerable<ProductViewModel>> List()
         {
-            var product = await _context.Products.Include(a => a.category).Include(a => a.brand).ToListAsync();
+            var product = await _context.Products.Include(a => a.category).Include(a => a.brand).Include(a => a.unit).ToListAsync();
 
             return product.Select(a => new ProductViewModel
             {
@@ -33,10 +33,14 @@ namespace SystemBackend.Web.Controllers
                 code = a.code,
                 name = a.name,
                 description = a.description,
-                brandId = a.brandId,
+                unitId = a.unitId,
+                unitName = a.unit.name,
                 categoryId = a.categoryId,
+                categoryName = a.category.name,
+                brandId = a.brandId,
                 brandName = a.brand.name,
-                categoryName = a.category.name
+                cost = a.cost,
+                price = a.price
             });
         }
 
