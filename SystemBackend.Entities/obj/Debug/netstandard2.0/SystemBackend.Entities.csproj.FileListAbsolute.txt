@@ -7,3 +7,11 @@ C:\Users\Mr-Robot\Documents\Workspace\SystemBackend\SystemBackend.Entities\bin\D
 C:\Users\Mr-Robot\Documents\Workspace\SystemBackend\SystemBackend.Entities\bin\Debug\netstandard2.0\SystemBackend.Entities.pdb
 C:\Users\Mr-Robot\Documents\Workspace\SystemBackend\SystemBackend.Entities\obj\Debug\netstandard2.0\SystemBackend.Entities.dll
 C:\Users\Mr-Robot\Documents\Workspace\SystemBackend\SystemBackend.Entities\obj\Debug\netstandard2.0\SystemBackend.Entities.pdb
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\bin\Debug\netstandard2.0\SystemBackend.Entities.deps.json
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\bin\Debug\netstandard2.0\SystemBackend.Entities.dll
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\bin\Debug\netstandard2.0\SystemBackend.Entities.pdb
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\obj\Debug\netstandard2.0\SystemBackend.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\obj\Debug\netstandard2.0\SystemBackend.Entities.AssemblyInfoInputs.cache
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\obj\Debug\netstandard2.0\SystemBackend.Entities.AssemblyInfo.cs
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\obj\Debug\netstandard2.0\SystemBackend.Entities.dll
+C:\Users\Mr-Robot\Documents\de git\Backend_System_NetCore\SystemBackend.Entities\obj\Debug\netstandard2.0\SystemBackend.Entities.pdb

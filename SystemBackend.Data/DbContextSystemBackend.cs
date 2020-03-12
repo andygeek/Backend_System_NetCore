@@ -14,7 +14,6 @@ namespace SystemBackend.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Unit> Units { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Product_Unit> product_Units { get; set; }
 
         public DbContextSystemBackend(DbContextOptions<DbContextSystemBackend> options) : base(options)
         {
@@ -27,7 +26,6 @@ namespace SystemBackend.Data
             modelBuilder.ApplyConfiguration(new CategoryMap());
             modelBuilder.ApplyConfiguration(new UnitMap());
             modelBuilder.ApplyConfiguration(new ProductMap());
-            modelBuilder.ApplyConfiguration(new Product_UnitMap());
         }
     }
 }
