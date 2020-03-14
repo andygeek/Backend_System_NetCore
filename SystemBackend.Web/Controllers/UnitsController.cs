@@ -53,21 +53,28 @@ namespace SystemBackend.Web.Controllers
             return Ok(unit);
         }
 
-        // PUT: api/Units/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutUnit([FromRoute] int id, [FromBody] Unit unit)
+        // PUT: api/units/update/5
+        [HttpPut("[action]")]
+        public async Task<IActionResult> Update([FromBody] UnitViewModel model)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != unit.id)
+            if (model.id < 0)
             {
                 return BadRequest();
             }
 
-            _context.Entry(unit).State = EntityState.Modified;
+            var unit = await _context.Units.FirstOrDefaultAsync(c => c.id == model.id);
+
+            if (unit == null)
+            {
+                return NotFound();
+            }
+
+            unit.name = model.name;
 
             try
             {
@@ -75,14 +82,7 @@ namespace SystemBackend.Web.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UnitExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return BadRequest();
             }
 
             return NoContent();
@@ -113,9 +113,9 @@ namespace SystemBackend.Web.Controllers
             return Ok();
         }
 
-        // DELETE: api/Units/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUnit([FromRoute] int id)
+        // DELETE: api/units/delete/5
+        [HttpDelete("[action]/{id}")]
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
@@ -123,15 +123,22 @@ namespace SystemBackend.Web.Controllers
             }
 
             var unit = await _context.Units.FindAsync(id);
+
             if (unit == null)
             {
                 return NotFound();
             }
 
             _context.Units.Remove(unit);
-            await _context.SaveChangesAsync();
-
-            return Ok(unit);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                BadRequest();
+            }
+            return Ok();
         }
 
         private bool UnitExists(int id)

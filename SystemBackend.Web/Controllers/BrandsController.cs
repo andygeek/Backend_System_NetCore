@@ -51,21 +51,29 @@ namespace SystemBackend.Web.Controllers
             });
         }
 
-        // PUT: api/Brands/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutBrand([FromRoute] int id, [FromBody] Brand brand)
+
+        // PUT: api/brands/update/5
+        [HttpPut("[action]")]
+        public async Task<IActionResult> Update([FromBody] BrandViewModel model)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != brand.id)
+            if (model.id < 0)
             {
                 return BadRequest();
             }
 
-            _context.Entry(brand).State = EntityState.Modified;
+            var brand = await _context.Brands.FirstOrDefaultAsync(c => c.id == model.id);
+
+            if (brand == null)
+            {
+                return NotFound();
+            }
+
+            brand.name = model.name;
 
             try
             {
@@ -73,14 +81,7 @@ namespace SystemBackend.Web.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!BrandExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return BadRequest();
             }
 
             return NoContent();
@@ -110,9 +111,9 @@ namespace SystemBackend.Web.Controllers
             return Ok();
         }
 
-        // DELETE: api/Brands/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBrand([FromRoute] int id)
+        // DELETE: api/brands/delete/5
+        [HttpDelete("[action]/{id}")]
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
@@ -120,17 +121,26 @@ namespace SystemBackend.Web.Controllers
             }
 
             var brand = await _context.Brands.FindAsync(id);
+
             if (brand == null)
             {
                 return NotFound();
             }
 
             _context.Brands.Remove(brand);
-            await _context.SaveChangesAsync();
-
-            return Ok(brand);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                BadRequest();
+            }
+            return Ok();
         }
 
+
+  
         private bool BrandExists(int id)
         {
             return _context.Brands.Any(e => e.id == id);

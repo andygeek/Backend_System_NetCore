@@ -53,21 +53,28 @@ namespace SystemBackend.Web.Controllers
             });
         }
 
-        // PUT: api/Categories/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCategory([FromRoute] int id, [FromBody] Category category)
+        // PUT: api/categories/update/5
+        [HttpPut("[action]")]
+        public async Task<IActionResult> Update([FromBody] CategoryViewModel model)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != category.id)
+            if (model.id < 0)
             {
                 return BadRequest();
             }
 
-            _context.Entry(category).State = EntityState.Modified;
+            var category = await _context.Categories.FirstOrDefaultAsync(c => c.id == model.id);
+
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            category.name = model.name;
 
             try
             {
@@ -75,20 +82,13 @@ namespace SystemBackend.Web.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CategoryExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return BadRequest();
             }
 
             return NoContent();
         }
 
-        // POST: api/Categories
+        // POST: api/categories/create
         [HttpPost("[action]")]
         public async Task<IActionResult> Create([FromBody] CategoryViewModel model)
         {
@@ -112,7 +112,7 @@ namespace SystemBackend.Web.Controllers
             return Ok();
         }
 
-        // DELETE: api/Categories/delete/id
+        // DELETE: api/categories/delete/5
         [HttpDelete("[action]/{id}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
@@ -122,6 +122,7 @@ namespace SystemBackend.Web.Controllers
             }
 
             var category = await _context.Categories.FindAsync(id);
+
             if (category == null)
             {
                 return NotFound();
@@ -132,11 +133,11 @@ namespace SystemBackend.Web.Controllers
             {
                 await _context.SaveChangesAsync();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return BadRequest();
+                BadRequest();
             }
-            return Ok(category);
+            return Ok();
         }
 
         private bool CategoryExists(int id)

@@ -58,7 +58,11 @@ namespace SystemBackend.Web.Controllers
                 name = model.name,
                 brandId = model.brandId,
                 categoryId = model.categoryId,
-                description = model.description
+                unitId = model.unitId,
+                description = null,
+                cost = model.cost,
+                price = model.price,
+                image = null
             };
             _context.Products.Add(product);
             try

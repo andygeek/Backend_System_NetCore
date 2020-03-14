@@ -34,3 +34,15 @@ C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Data\o
 C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.csproj.CopyComplete
 C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.dll
 C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.pdb
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\bin\Debug\netstandard2.0\SystemBackend.Data.deps.json
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\bin\Debug\netstandard2.0\SystemBackend.Data.dll
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\bin\Debug\netstandard2.0\SystemBackend.Data.pdb
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\bin\Debug\netstandard2.0\SystemBackend.Entities.dll
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\bin\Debug\netstandard2.0\SystemBackend.Entities.pdb
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.csprojAssemblyReference.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.csproj.CoreCompileInputs.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.AssemblyInfoInputs.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.AssemblyInfo.cs
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.csproj.CopyComplete
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.dll
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Data\obj\Debug\netstandard2.0\SystemBackend.Data.pdb

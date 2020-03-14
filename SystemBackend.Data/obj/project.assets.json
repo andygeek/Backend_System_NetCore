@@ -3234,11 +3234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Data\\SystemBackend.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Mr-Robot\\Documents\\git 3\\Backend_System_NetCore\\SystemBackend.Data\\SystemBackend.Data.csproj",
       "projectName": "SystemBackend.Data",
-      "projectPath": "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Data\\SystemBackend.Data.csproj",
+      "projectPath": "C:\\Users\\Mr-Robot\\Documents\\git 3\\Backend_System_NetCore\\SystemBackend.Data\\SystemBackend.Data.csproj",
       "packagesPath": "C:\\Users\\Mr-Robot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Data\\obj\\",
+      "outputPath": "C:\\Users\\Mr-Robot\\Documents\\git 3\\Backend_System_NetCore\\SystemBackend.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3257,8 +3257,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj": {
-              "projectPath": "C:\\Users\\Mr-Robot\\Documents\\de git 2\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj"
+            "C:\\Users\\Mr-Robot\\Documents\\git 3\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj": {
+              "projectPath": "C:\\Users\\Mr-Robot\\Documents\\git 3\\Backend_System_NetCore\\SystemBackend.Entities\\SystemBackend.Entities.csproj"
             }
           }
         }

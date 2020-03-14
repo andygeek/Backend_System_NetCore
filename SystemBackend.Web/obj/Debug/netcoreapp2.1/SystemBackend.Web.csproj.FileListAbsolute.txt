@@ -55,3 +55,22 @@ C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Web\ob
 C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.csproj.CopyComplete
 C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.dll
 C:\Users\Mr-Robot\Documents\de git 2\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.pdb
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Web.deps.json
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Web.runtimeconfig.json
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Web.runtimeconfig.dev.json
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Web.dll
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Web.pdb
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Data.dll
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Entities.dll
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Data.pdb
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\bin\Debug\netcoreapp2.1\SystemBackend.Entities.pdb
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.csprojAssemblyReference.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.csproj.CoreCompileInputs.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.RazorAssemblyInfo.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.RazorAssemblyInfo.cs
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.AssemblyInfoInputs.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.AssemblyInfo.cs
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.csproj.CopyComplete
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.dll
+C:\Users\Mr-Robot\Documents\git 3\Backend_System_NetCore\SystemBackend.Web\obj\Debug\netcoreapp2.1\SystemBackend.Web.pdb
